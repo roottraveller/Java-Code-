@@ -9,6 +9,8 @@ import javax.annotation.*;
 @Immutable
 //https://stackoverflow.com/questions/37087809/how-to-find-out-if-a-class-is-immutable
 
+// @author : rootTraveller, June 2017
+
 
 final class ImmutableClass {
 	private final int dummyInt;
