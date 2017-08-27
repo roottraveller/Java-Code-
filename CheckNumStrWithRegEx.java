@@ -4,11 +4,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /*
- *This code should work with all the possible cases 
- *If not wokrking go take a bath and return 
+ * This code should work with all the possible cases 
+ * If not, go take a bath and return (1)
  */
  
  // @author : rootTraveller, June 2017
+
  
 class CheckNumStrWithRegEx{
 	public CheckNumStrWithRegEx() {
