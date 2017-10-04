@@ -29,7 +29,7 @@ class ThreadA implements Runnable {
 		//stuff 
 		synchronized(this) { 
 			for(int i=0; i<999; ++i) {
-				//do nothing just weast time
+				//do nothing just waste time
 				System.out.println(Thread.currentThread().getName() + " Running...");
 			}
 			notifyAll();
@@ -43,7 +43,7 @@ class ThreadB implements Runnable {
 		//stuff 
 		synchronized(this) { 
 			for(int i=0; i<999; ++i) {
-				//do nothing just weast time
+				//do nothing just waste time
 				System.out.println(Thread.currentThread().getName() + " Running...");
 			}
 			notifyAll();
