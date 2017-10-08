@@ -10,7 +10,7 @@ class ThreadPoolDemo {
 	
 	public static void main(String[] args) {
 		ExecutorService service = Executors.newFixedThreadPool(THREAD_COUNT);
-		//Other methods = Executors.SingleThreadExecutor(), Executors.CachedThreadPool()
+		//Other methods = Executors.newSingleThreadExecutor(), Executors.newCachedThreadPool()
 		
 		// submit obj to Thread pool for execution
 		for(int i=1; i<=100; ++i) {
