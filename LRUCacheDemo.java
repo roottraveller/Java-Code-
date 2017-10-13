@@ -7,7 +7,8 @@ import java.util.*;
   go directly from the HashMap to the item in the list, our time complexity remains at O(1) 
 */
 
-// @author : rootTraveller, June 2017
+// @author : rootTraveller, 
+// June 2017
 
 
 public class LRUCacheDemo {
