@@ -1,8 +1,7 @@
 import java.util.*;
 
 /* 
- * Author @ roottraveller
- * July 2017
+ * Author @ roottraveller, July 2017
  */
 
 public class TwoDArraysSort {
