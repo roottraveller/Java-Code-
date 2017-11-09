@@ -4,11 +4,14 @@ import javax.annotation.*;
 /*
  * Make class final -> No subclass possible
  * Make all instance veriable final and private
+ * Don't provide setter methods, only getter methods
+ * For mutable instance, return a copy of it
+ * 
  */
 
 @Immutable
-//https://stackoverflow.com/questions/37087809/how-to-find-out-if-a-class-is-immutable
-
+// https://stackoverflow.com/questions/37087809/how-to-find-out-if-a-class-is-immutable
+// http://www.javapractices.com/topic/TopicAction.do?Id=29
 // @author : rootTraveller, June 2017
 
 
